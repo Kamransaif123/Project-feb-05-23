@@ -1,0 +1,79 @@
+body {
+    background-image: url(project_3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    /* max-width: fit-content;
+    max-height: fit-content; */
+    background-position: center;
+    border-radius: 50px;
+    margin: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 60px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    /* align-items: center;
+    justify-items: center; */
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+footer {
+    margin: auto;
+}
+button {
+    background-color: #cc00cc;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 30px;
+    position: relative;
+    right: 230px;
+    font-size: x-small;
+    font-weight: lighter;
+}
+.logo {
+    width: 50%;
+}
+.line {
+    background-color: #fff;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    right: 150px;
+}
+.footer-button {
+    position: relative;
+    left: 45%;
+    top: 20px;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    border: solid 1px white;
+}
+.nav-button {
+    height: 30px;
+    width: 6.5rem;
+    border-radius: 5px;
+    border: solid 1px white;
+}
